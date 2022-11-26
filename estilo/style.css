@@ -124,20 +124,16 @@ main img {
     width: 100%;
 }
 
-.iframe {
+iframe {
     background-color: var(--cor5);
-    margin-left: -20px;
-    margin-right: -20px;
+    width: 100%;
 }
-
-.iframe iframe {
-    display: block;
-    margin: auto;
-    padding: 20px;
-    width: 95%;
-    height: 400px;
+.video {
+    min-width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: var(--cor5);
 }
-
 aside {
     margin-top: 10px;
     margin-bottom: 10px;
